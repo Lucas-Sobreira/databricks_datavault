@@ -25,7 +25,6 @@ def main(dstype: str):
         GenerateData.load_data(ds_type="mssql")
         GenerateData.load_data(ds_type="postgres")
         GenerateData.load_data(ds_type="mongodb")
-        GenerateData.load_data(ds_type="redis")
 
 if __name__ == "__main__":
     main("all")
